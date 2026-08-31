@@ -9,7 +9,7 @@ namespace StudentProfile
 
         private void btnClick_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ariello V. Del Castillo", "Student Profile");
+            MessageBox.Show("GitHub Beginner Lab", "Student Profile");
         }
     }
 }
