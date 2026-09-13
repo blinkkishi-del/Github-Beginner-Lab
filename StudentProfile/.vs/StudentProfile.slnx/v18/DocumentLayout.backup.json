@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|c:\\users\\binsu\\source\\repos\\blinkkishi-del\\github-beginner-lab\\studentprofile\\studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|solutionrelative:studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|c:\\users\\binsu\\source\\repos\\blinkkishi-del\\github-beginner-lab\\studentprofile\\studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|solutionrelative:studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|c:\\users\\binsu\\source\\repos\\blinkkishi-del\\github-beginner-lab\\studentprofile\\studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB16324D-6E77-FE0E-F14C-970AFAE673B0}|StudentProfile\\StudentProfile.csproj|solutionrelative:studentprofile\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,33 +29,37 @@
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs",
-              "RelativeDocumentMoniker": "StudentProfile\\StudentProfile.cs",
-              "ToolTip": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs",
-              "RelativeToolTip": "StudentProfile\\StudentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T08:24:39.697Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StudentProfile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs",
-              "RelativeDocumentMoniker": "StudentProfile\\StudentProfile.cs",
-              "ToolTip": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs [Design]",
-              "RelativeToolTip": "StudentProfile\\StudentProfile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T08:23:29.835Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "StudentProfile\\StudentProfile.cs",
+              "ToolTip": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs*",
+              "RelativeToolTip": "StudentProfile\\StudentProfile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T00:46:07.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentProfile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs",
+              "RelativeDocumentMoniker": "StudentProfile\\StudentProfile.cs",
+              "ToolTip": "C:\\Users\\Binsu\\source\\repos\\blinkkishi-del\\Github-Beginner-Lab\\StudentProfile\\StudentProfile\\StudentProfile.cs [Design]*",
+              "RelativeToolTip": "StudentProfile\\StudentProfile.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-13T00:45:33.428Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

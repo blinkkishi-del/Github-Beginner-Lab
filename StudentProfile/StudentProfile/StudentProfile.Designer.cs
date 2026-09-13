@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnClick = new Button();
+            lbl1 = new Label();
             SuspendLayout();
             // 
             // btnClick
@@ -42,20 +43,32 @@
             btnClick.UseVisualStyleBackColor = true;
             btnClick.Click += btnClick_Click;
             // 
-            // Form1
+            // lbl1
+            // 
+            lbl1.AutoSize = true;
+            lbl1.Location = new Point(325, 223);
+            lbl1.Name = "lbl1";
+            lbl1.Size = new Size(38, 15);
+            lbl1.TabIndex = 1;
+            lbl1.Text = "label1";
+            // 
+            // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbl1);
             Controls.Add(btnClick);
-            Name = "Form1";
+            Name = "StudentProfile";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnClick;
+        private Label lbl1;
     }
 }
