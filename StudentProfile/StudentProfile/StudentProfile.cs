@@ -10,6 +10,9 @@ namespace StudentProfile
         private void btnClick_Click(object sender, EventArgs e)
         {
             MessageBox.Show("GitHub Beginner Lab", "Student Profile");
+
+
+            lbl1.Text = "Contact Number:09171234567";
         }
     }
 }
