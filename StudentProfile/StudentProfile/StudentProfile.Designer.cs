@@ -30,12 +30,13 @@
         {
             btnClick = new Button();
             lbl1 = new Label();
+            txtGPA = new TextBox();
             SuspendLayout();
             // 
             // btnClick
             // 
             btnClick.Font = new Font("Segoe UI", 15F);
-            btnClick.Location = new Point(94, 88);
+            btnClick.Location = new Point(12, 12);
             btnClick.Name = "btnClick";
             btnClick.Size = new Size(161, 61);
             btnClick.TabIndex = 0;
@@ -46,17 +47,27 @@
             // lbl1
             // 
             lbl1.AutoSize = true;
-            lbl1.Location = new Point(325, 223);
+            lbl1.Location = new Point(12, 109);
             lbl1.Name = "lbl1";
-            lbl1.Size = new Size(38, 15);
+            lbl1.Size = new Size(89, 15);
             lbl1.TabIndex = 1;
-            lbl1.Text = "label1";
+            lbl1.Text = "Enter Your GPA:";
+            // 
+            // txtGPA
+            // 
+            txtGPA.Location = new Point(31, 127);
+            txtGPA.Name = "txtGPA";
+            txtGPA.Size = new Size(100, 23);
+            txtGPA.TabIndex = 2;
+            txtGPA.TextChanged += txtGPA_TextChanged;
+            txtGPA.KeyPress += txtGPA_KeyPress;
             // 
             // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(641, 458);
+            Controls.Add(txtGPA);
             Controls.Add(lbl1);
             Controls.Add(btnClick);
             Name = "StudentProfile";
@@ -70,5 +81,6 @@
 
         private Button btnClick;
         private Label lbl1;
+        private TextBox txtGPA;
     }
 }
