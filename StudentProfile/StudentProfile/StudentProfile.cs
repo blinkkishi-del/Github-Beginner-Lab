@@ -86,10 +86,10 @@ namespace StudentProfile
         {
             int currentLength = txtFeedback.Text.Length;
 
-   
+
             lblCharCount.Text = $"{currentLength}/{MaxCharacters} characters";
 
-         
+
             if (currentLength > MaxCharacters)
             {
                 lblCharCount.ForeColor = Color.Red;
@@ -98,6 +98,14 @@ namespace StudentProfile
             else
             {
                 lblCharCount.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtPhone_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true; // Block letters and special characters
             }
         }
     }
