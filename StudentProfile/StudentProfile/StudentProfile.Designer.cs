@@ -35,6 +35,7 @@
             txtPassword = new TextBox();
             errorProvider1 = new ErrorProvider(components);
             lblStatus = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -69,7 +70,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(12, 211);
+            txtPassword.Location = new Point(31, 209);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(100, 23);
             txtPassword.TabIndex = 3;
@@ -82,17 +83,26 @@
             // lblStatus
             // 
             lblStatus.AutoSize = true;
-            lblStatus.Location = new Point(47, 260);
+            lblStatus.Location = new Point(31, 235);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(38, 15);
+            lblStatus.Size = new Size(0, 15);
             lblStatus.TabIndex = 4;
-            lblStatus.Text = "label1";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 191);
+            label1.Name = "label1";
+            label1.Size = new Size(118, 15);
+            label1.TabIndex = 5;
+            label1.Text = "Enter Password Here:";
             // 
             // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(641, 458);
+            Controls.Add(label1);
             Controls.Add(lblStatus);
             Controls.Add(txtPassword);
             Controls.Add(txtGPA);
@@ -114,5 +124,6 @@
         private TextBox txtPassword;
         private ErrorProvider errorProvider1;
         private Label lblStatus;
+        private Label label1;
     }
 }
