@@ -1,7 +1,12 @@
+using System.Drawing;
+using System;
+
 namespace StudentProfile
 {
     public partial class StudentProfile : Form
     {
+        private const int MaxCharacters = 250;
+
         public StudentProfile()
         {
             InitializeComponent();
@@ -77,6 +82,24 @@ namespace StudentProfile
             errorProvider1.SetError(txtPassword, "Password must be at least 8 characters long");
         }
 
+        private void txtFeedback_TextChanged(object sender, EventArgs e)
+        {
+            int currentLength = txtFeedback.Text.Length;
+
+   
+            lblCharCount.Text = $"{currentLength}/{MaxCharacters} characters";
+
+         
+            if (currentLength > MaxCharacters)
+            {
+                lblCharCount.ForeColor = Color.Red;
+                lblCharCount.Text += " (Limit exceeded!)";
+            }
+            else
+            {
+                lblCharCount.ForeColor = Color.Black;
+            }
+        }
     }
 }
 

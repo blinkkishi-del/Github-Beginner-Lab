@@ -36,6 +36,9 @@
             errorProvider1 = new ErrorProvider(components);
             lblStatus = new Label();
             label1 = new Label();
+            txtFeedback = new TextBox();
+            lblCharCount = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
@@ -97,11 +100,42 @@
             label1.TabIndex = 5;
             label1.Text = "Enter Password Here:";
             // 
+            // txtFeedback
+            // 
+            txtFeedback.Location = new Point(237, 144);
+            txtFeedback.Multiline = true;
+            txtFeedback.Name = "txtFeedback";
+            txtFeedback.ScrollBars = ScrollBars.Vertical;
+            txtFeedback.Size = new Size(329, 65);
+            txtFeedback.TabIndex = 6;
+            txtFeedback.TextChanged += txtFeedback_TextChanged;
+            // 
+            // lblCharCount
+            // 
+            lblCharCount.AutoSize = true;
+            lblCharCount.Location = new Point(438, 217);
+            lblCharCount.Name = "lblCharCount";
+            lblCharCount.Size = new Size(118, 15);
+            lblCharCount.TabIndex = 7;
+            lblCharCount.Text = "Enter Password Here:";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(237, 109);
+            label2.Name = "label2";
+            label2.Size = new Size(152, 15);
+            label2.TabIndex = 8;
+            label2.Text = "Ennter your Feedback Here:";
+            // 
             // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(641, 458);
+            Controls.Add(label2);
+            Controls.Add(lblCharCount);
+            Controls.Add(txtFeedback);
             Controls.Add(label1);
             Controls.Add(lblStatus);
             Controls.Add(txtPassword);
@@ -125,5 +159,8 @@
         private ErrorProvider errorProvider1;
         private Label lblStatus;
         private Label label1;
+        private TextBox txtFeedback;
+        private Label lblCharCount;
+        private Label label2;
     }
 }
