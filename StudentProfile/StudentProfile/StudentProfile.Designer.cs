@@ -28,9 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             btnClick = new Button();
             lbl1 = new Label();
             txtGPA = new TextBox();
+            txtPassword = new TextBox();
+            errorProvider1 = new ErrorProvider(components);
+            lblStatus = new Label();
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).BeginInit();
             SuspendLayout();
             // 
             // btnClick
@@ -62,17 +67,41 @@
             txtGPA.TextChanged += txtGPA_TextChanged;
             txtGPA.KeyPress += txtGPA_KeyPress;
             // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(12, 211);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(100, 23);
+            txtPassword.TabIndex = 3;
+            txtPassword.TextChanged += txtPassword_TextChanged;
+            // 
+            // errorProvider1
+            // 
+            errorProvider1.ContainerControl = this;
+            // 
+            // lblStatus
+            // 
+            lblStatus.AutoSize = true;
+            lblStatus.Location = new Point(47, 260);
+            lblStatus.Name = "lblStatus";
+            lblStatus.Size = new Size(38, 15);
+            lblStatus.TabIndex = 4;
+            lblStatus.Text = "label1";
+            // 
             // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(641, 458);
+            Controls.Add(lblStatus);
+            Controls.Add(txtPassword);
             Controls.Add(txtGPA);
             Controls.Add(lbl1);
             Controls.Add(btnClick);
             Name = "StudentProfile";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)errorProvider1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -82,5 +111,8 @@
         private Button btnClick;
         private Label lbl1;
         private TextBox txtGPA;
+        private TextBox txtPassword;
+        private ErrorProvider errorProvider1;
+        private Label lblStatus;
     }
 }

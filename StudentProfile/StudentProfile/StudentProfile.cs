@@ -5,6 +5,7 @@ namespace StudentProfile
         public StudentProfile()
         {
             InitializeComponent();
+            ConfigurePasswordcriteria();
         }
 
         private void btnClick_Click(object sender, EventArgs e)
@@ -42,7 +43,7 @@ namespace StudentProfile
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
             {
-                e.Handled = true; 
+                e.Handled = true;
             }
 
             // Prevent typing a second decimal point
@@ -51,5 +52,31 @@ namespace StudentProfile
                 e.Handled = true;
             }
         }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+            if (txtPassword.Text.Length >= 8)
+            {
+                errorProvider1.SetError(txtPassword, ""); // Clear error
+                lblStatus.Text = "Valid password criteria met!";
+                lblStatus.ForeColor = System.Drawing.Color.Green;
+            }
+            else
+            {
+                errorProvider1.SetError(txtPassword, "Password requires a minimum length of 8 characters.");
+                lblStatus.Text = $"Characters: {txtPassword.Text.Length}/8";
+                lblStatus.ForeColor = System.Drawing.Color.Red;
+            }
+
+        }
+
+
+        private void ConfigurePasswordcriteria()
+        {
+            txtPassword.PasswordChar = '*';
+            errorProvider1.SetError(txtPassword, "Password must be at least 8 characters long");
+        }
+
     }
 }
+
