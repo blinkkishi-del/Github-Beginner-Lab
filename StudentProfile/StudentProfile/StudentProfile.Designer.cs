@@ -132,7 +132,7 @@
             // 
             // txtPhone
             // 
-            txtPhone.Location = new Point(200, 294);
+            txtPhone.Location = new Point(31, 288);
             txtPhone.MaxLength = 11;
             txtPhone.Name = "txtPhone";
             txtPhone.Size = new Size(100, 23);
@@ -142,11 +142,11 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(144, 276);
+            label3.Location = new Point(12, 270);
             label3.Name = "label3";
-            label3.Size = new Size(156, 15);
+            label3.Size = new Size(129, 15);
             label3.TabIndex = 10;
-            label3.Text = "Enter Your Contact Number:";
+            label3.Text = "Enter Contact Number:";
             // 
             // StudentProfile
             // 
