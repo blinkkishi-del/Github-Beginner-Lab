@@ -102,18 +102,18 @@
             // 
             // txtFeedback
             // 
-            txtFeedback.Location = new Point(12, 279);
+            txtFeedback.Location = new Point(237, 144);
             txtFeedback.Multiline = true;
             txtFeedback.Name = "txtFeedback";
             txtFeedback.ScrollBars = ScrollBars.Vertical;
-            txtFeedback.Size = new Size(176, 62);
+            txtFeedback.Size = new Size(329, 65);
             txtFeedback.TabIndex = 6;
             txtFeedback.TextChanged += txtFeedback_TextChanged;
             // 
             // lblCharCount
             // 
             lblCharCount.AutoSize = true;
-            lblCharCount.Location = new Point(70, 344);
+            lblCharCount.Location = new Point(438, 217);
             lblCharCount.Name = "lblCharCount";
             lblCharCount.Size = new Size(118, 15);
             lblCharCount.TabIndex = 7;
@@ -122,7 +122,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(12, 261);
+            label2.Location = new Point(237, 109);
             label2.Name = "label2";
             label2.Size = new Size(152, 15);
             label2.TabIndex = 8;
